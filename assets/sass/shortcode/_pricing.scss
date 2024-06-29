@@ -57,6 +57,9 @@
     line-height: 1.207em;
     margin-bottom: 4px;
     transition: all 0.4s ease-in-out;
+    @media (max-width: 1550px) {
+      font-size: 24px;
+    }
   }
 
   .cs_pricing_head_subtitle {
@@ -77,6 +80,9 @@
     line-height: 1.315em;
     transition: all 0.4s ease-in-out;
     margin-bottom: 20px;
+    @media (max-width: 1550px) {
+      font-size: 28px;
+    }
 
     small {
       font-size: 16px;

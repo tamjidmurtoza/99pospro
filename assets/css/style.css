@@ -3417,6 +3417,11 @@ textarea {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+@media (max-width: 1550px) {
+  .cs_pricing_table.cs_style_1 .cs_pricing_head_title {
+    font-size: 24px;
+  }
+}
 .cs_pricing_table.cs_style_1 .cs_pricing_head_subtitle {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -3436,6 +3441,11 @@ textarea {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   margin-bottom: 20px;
+}
+@media (max-width: 1550px) {
+  .cs_pricing_table.cs_style_1 .cs_price_value {
+    font-size: 28px;
+  }
 }
 .cs_pricing_table.cs_style_1 .cs_price_value small {
   font-size: 16px;
