@@ -50,6 +50,26 @@
         mobile: false,
       }).init();
     }
+    // Toggle the active class on button click
+    $('.cs_support_toggle_btn').on('click', function (event) {
+      event.stopPropagation();
+      $('.cs_support_wrap').toggleClass('active');
+    });
+
+    // Remove the active class when clicking outside
+    $(document).on('click', function (event) {
+      if (
+        !$(event.target).closest('.cs_support_wrap, .cs_support_toggle_btn')
+          .length
+      ) {
+        $('.cs_support_wrap').removeClass('active');
+      }
+    });
+
+    // Prevent clicks inside .cs_support_wrap from triggering the document click handler
+    $('.cs_support_wrap').on('click', function (event) {
+      event.stopPropagation();
+    });
   });
 
   $(window).on('load', function () {
