@@ -22,3 +22,22 @@
     }
   }
 }
+// Added
+.cs_partners {
+  gap: 25px 90px;
+  justify-content: center;
+}
+@media (max-width: 991px) {
+  .cs_partners {
+    gap: 25px 30px;
+  }
+}
+.cs_partners .cs_partner img {
+  filter: initial;
+  height: 60px;
+}
+@media (max-width: 991px) {
+  .cs_partners .cs_partner img {
+    height: 40px;
+  }
+}

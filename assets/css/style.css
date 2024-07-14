@@ -3725,6 +3725,29 @@ textarea {
           filter: grayscale(0%);
 }
 
+.cs_partners {
+  gap: 25px 90px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 991px) {
+  .cs_partners {
+    gap: 25px 30px;
+  }
+}
+.cs_partners .cs_partner img {
+  -webkit-filter: initial;
+          filter: initial;
+  height: 60px;
+}
+
+@media (max-width: 991px) {
+  .cs_partners .cs_partner img {
+    height: 40px;
+  }
+}
 /*--------------------------------------------------------------
 15. Accordian
 ----------------------------------------------------------------*/
